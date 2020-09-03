@@ -1,3 +1,48 @@
-body {
-  color: red;
-}
+/*
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+h1 { font-size: 5.2917em; }
+
+h2 { font-size: 2.6458em; }
+
+h3 { font-size: 1.75em; }
+
+h4 { font-size: 1.3333em; }
+
+h5 { font-size: 1.1667em; }
+
+body { margin: 0; padding: 0; font-size: 16px; color: #3a4a41; font-family: "Hind Madurai", sans-serif; }
+
+.wrapper { display: grid; grid-template-columns: repeat(12, 1fr); }
+
+.intro, .projects, .contact-me, .contacts { grid-column: 4 / 10; }
+
+.intro__title { font-family: "Montserrat", sans-serif; background-color: red; background-image: linear-gradient(86.01deg, #56ccf2 -9.1%, #423c8a 82.05%); background-size: 100%; -webkit-background-clip: text; -moz-background-clip: text; -webkit-text-fill-color: transparent; -moz-text-fill-color: transparent; }
+
+.intro__subtitle { font-family: "Lora", serif; }
+
+.intro span { background-color: yellow; background-image: linear-gradient(86.01deg, #56ccf2 -9.1%, #c7a05e 82.05%); background-size: 100%; -webkit-background-clip: text; -moz-background-clip: text; -webkit-text-fill-color: transparent; -moz-text-fill-color: transparent; }
+
+.section { margin: 15px 0 80px 0; }
+
+.section-title { background-color: yellow; background-image: linear-gradient(86.01deg, #56ccf2 -9.1%, #c7a05e 82.05%); background-size: 100%; -webkit-background-clip: text; -moz-background-clip: text; -webkit-text-fill-color: transparent; -moz-text-fill-color: transparent; margin: 0 0 50px 0; text-transform: uppercase; font-family: "Montserrat", sans-serif; }
+
+.projects { display: flex; flex-flow: column; }
+
+.project-cards { display: flex; flex-flow: row; }
+
+.project-card { width: 325px; height: 207px; position: relative; color: #ccc; margin: 0 50px 0 0; background: url(img/up.svg) center left no-repeat border-box border-box, url(img/down.svg) center left no-repeat border-box border-box; }
+
+.project-card * { margin: 0; }
+
+.project-card__title { color: #c7a05e; font-family: "Montserrat", sans-serif; position: absolute; width: 220px; left: 32px; top: 33px; }
+
+.project-card__text { position: absolute; width: 220px; left: 32px; top: 80px; }
+
+.project-card__button { position: absolute; width: 100px; height: 23px; left: 32px; top: 159px; }
+
+.project-card__button a { font-family: "Montserrat", sans-serif; color: #ccc; border-bottom: 2px solid transparent; border-image: linear-gradient(86.01deg, #56ccf2 -9.1%, #c7a05e 82.05%); border-image-slice: 1; text-transform: uppercase; text-decoration: none; }
+
+.project-card__type { position: absolute; font-family: Montserrat; font-style: normal; font-weight: bold; width: 58px; height: 20px; left: 318px; top: 75px; color: #ffffff; transform: rotate(90deg); transform-origin: top left; }

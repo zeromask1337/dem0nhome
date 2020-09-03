@@ -1,0 +1,30 @@
+h1 {
+    font-size: 5.2917em;
+}
+h2 {
+    font-size: 2.6458em;
+}
+h3 {
+    font-size: 1.75em;
+}
+h4 {
+    font-size: 1.3333em;
+}
+h5 {
+    font-size: 1.1667em;
+}
+
+$sky: linear-gradient(86.01deg, #56ccf2 -9.1%, #423c8a 82.05%);
+$sunrise: linear-gradient(86.01deg, #56ccf2 -9.1%, #c7a05e 82.05%);
+$swamp: #3a4a41;
+$mud: #c7a05e;
+
+@mixin gradient($backupcolor, $gradient) {
+    background-color: $backupcolor;
+    background-image: $gradient;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}

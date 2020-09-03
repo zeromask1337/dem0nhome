@@ -1,0 +1,116 @@
+/*
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+@import "optional";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: $swamp;
+    font-family: "Hind Madurai", sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.intro,
+.projects,
+.contact-me,
+.contacts {
+    grid-column: 4 / 10;
+}
+
+.intro {
+    &__title {
+        font-family: "Montserrat", sans-serif;
+        @include gradient(red, $sky);
+    }
+    &__subtitle {
+        font-family: "Lora", serif;
+    }
+    span {
+        @include gradient(yellow, $sunrise);
+    }
+}
+.section {
+    margin: 15px 0 80px 0;
+    &-title {
+        @include gradient(yellow, $sunrise);
+        margin: 0 0 50px 0;
+        text-transform: uppercase;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+.projects {
+    display: flex;
+    flex-flow: column;
+}
+
+.project-cards {
+    display: flex;
+    flex-flow: row;
+}
+
+.project-card {
+    width: 325px;
+    height: 207px;
+    position: relative;
+    color: #ccc;
+    margin: 0 50px 0 0;
+    background: url(img/up.svg) center left no-repeat border-box border-box,
+        url(img/down.svg) center left no-repeat border-box border-box;
+    * {
+        margin: 0;
+    }
+    &__title {
+        color: $mud;
+        font-family: "Montserrat", sans-serif;
+        position: absolute;
+        width: 220px;
+        left: 32px;
+        top: 33px;
+    }
+    &__text {
+        position: absolute;
+        width: 220px;
+        left: 32px;
+        top: 80px;
+    }
+    &__button {
+        position: absolute;
+        width: 100px;
+        height: 23px;
+        left: 32px;
+        top: 159px;
+        a {
+            font-family: "Montserrat", sans-serif;
+            color: #ccc;
+            border-bottom: 2px solid transparent;
+            border-image: $sunrise;
+            border-image-slice: 1;
+            text: {
+                transform: uppercase;
+                decoration: none;
+            }
+        }
+    }
+    &__type {
+        position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        width: 58px;
+        height: 20px;
+        left: 318px;
+        top: 75px;
+        color: #ffffff;
+        transform: rotate(90deg);
+        transform-origin: top left;
+    }
+}
