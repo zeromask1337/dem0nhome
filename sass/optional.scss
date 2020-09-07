@@ -1,23 +1,34 @@
-h1 {
+.h1 {
     font-size: 5.2917em;
 }
-h2 {
+
+.h2 {
     font-size: 2.6458em;
 }
-h3 {
+
+.h3 {
     font-size: 1.75em;
 }
-h4 {
+
+.h4 {
     font-size: 1.3333em;
 }
-h5 {
+
+.h5 {
     font-size: 1.1667em;
 }
 
 $sky: linear-gradient(86.01deg, #56ccf2 -9.1%, #423c8a 82.05%);
 $sunrise: linear-gradient(86.01deg, #56ccf2 -9.1%, #c7a05e 82.05%);
+$azure: linear-gradient(
+    45deg,
+    rgba(70, 56, 137, 1) 0%,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(124, 201, 148, 1) 50%
+);
 $swamp: #3a4a41;
 $mud: #c7a05e;
+$grey17: rgba(255, 255, 255, 0.17);
 
 @mixin gradient($backupcolor, $gradient) {
     background-color: $backupcolor;
@@ -28,3 +39,14 @@ $mud: #c7a05e;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
+@mixin gradBorder($gradient) {
+    border: none;
+    border-bottom: 2px solid transparent;
+    border-image: $gradient;
+    border-image-slice: 1;
+}
+
+$macbook: "screen and (max-width: 1440px)";
+$ipad: "screen and (max-width: 1000px)";
+$iphone: "screen and (max-width: 600px)";
