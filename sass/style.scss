@@ -13,7 +13,6 @@ body {
     font-family: "Hind Madurai", sans-serif;
     color: $swamp;
 
-    background: url("img/skull.svg") no-repeat;
     @media #{$macbook} {
         font-size: 14px;
     }

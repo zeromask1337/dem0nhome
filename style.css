@@ -13,7 +13,7 @@ font-family: 'Montserrat', sans-serif;
 
 .h5 { font-size: 1.1667em; }
 
-body { margin: 0; padding: 0; font-size: 16px; font-family: "Hind Madurai", sans-serif; color: #3a4a41; background: url("img/skull.svg") no-repeat; }
+body { margin: 0; padding: 0; font-size: 16px; font-family: "Hind Madurai", sans-serif; color: #3a4a41; }
 
 @media screen and (max-width: 1440px) { body { font-size: 14px; } }
 
