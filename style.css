@@ -51,7 +51,7 @@ section .section-title { background-color: yellow; background-image: linear-grad
 
 @media screen and (max-width: 1000px) { .project-cards { flex-flow: column; } }
 
-.project-card { width: 325px; height: 207px; margin: 0 50px 50px 0; position: relative; color: #ccc; background: url(img/up.svg) center left no-repeat border-box border-box, url(img/down.svg) center left no-repeat border-box border-box; }
+.project-card { width: 325px; min-width: 325px; height: 207px; margin: 0 50px 50px 0; position: relative; color: #ccc; background: url(img/up.svg) center left no-repeat border-box border-box, url(img/down.svg) center left no-repeat border-box border-box; }
 
 .project-card * { margin: 0; }
 
