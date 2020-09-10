@@ -1,0 +1,22 @@
+.intro {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+    * {
+        margin: 0;
+    }
+    & > * {
+        margin: 0 0 2.5rem 0;
+    }
+    &__title {
+        font-family: "Montserrat", sans-serif;
+        @include gradient(red, $sky);
+    }
+    &__subtitle {
+        font-family: "Lora", serif;
+    }
+    span {
+        @include gradient(yellow, $sunrise);
+    }
+}

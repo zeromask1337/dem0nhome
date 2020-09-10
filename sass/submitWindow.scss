@@ -1,0 +1,57 @@
+.submit-window {
+    width: 712px;
+    height: 371px;
+    position: relative;
+
+    background-color: $swamp;
+    border-radius: 20px;
+
+    * {
+        background-color: inherit;
+        font-family: "Hind Madurai", sans-serif;
+        color: white;
+
+        &::placeholder {
+            font-family: "Montserrat", sans-serif;
+            color: $grey17;
+        }
+    }
+    .fname {
+        width: 164px;
+        height: 24px;
+        position: absolute;
+        left: 40px;
+        top: 28px;
+
+        background-color: inherit;
+        @include gradBorder($sunrise);
+    }
+    .lname {
+        width: 184px;
+        height: 24px;
+        position: absolute;
+        left: 284px;
+        top: 28px;
+
+        @include gradBorder($sunrise);
+    }
+    .reason {
+        width: 428px;
+        height: 23px;
+        position: absolute;
+        left: 40px;
+        top: 74px;
+
+        @include gradBorder($sunrise);
+    }
+    textarea {
+        width: 630px;
+        height: 196px;
+        position: absolute;
+        left: 5.76%;
+        right: 5.76%;
+        top: 38.27%;
+        bottom: 8.89%;
+        // border-radius: 20px;
+    }
+}

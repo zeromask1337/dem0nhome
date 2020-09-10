@@ -1,0 +1,18 @@
+footer {
+    max-width: 864px;
+    max-height: 988px;
+    min-width: 374px;
+    min-height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .skull {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        display: block;
+        margin-bottom: -445px;
+
+        transform: rotate(-180deg);
+    }
+}
