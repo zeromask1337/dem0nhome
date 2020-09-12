@@ -1,3 +1,22 @@
+/*
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+.h1 { font-size: 5.2917em; }
+
+@media screen and (max-width: 600px) { .h1 { font-size: 4.2917em; } }
+
+.h2 { font-size: 2.6458em; }
+
+.h3 { font-size: 28px; }
+
+.h4 { font-size: 1.3333em; }
+
+.h5 { font-size: 1.1667em; }
+
+.hide { display: none; }
+
 .h1 { font-size: 5.2917em; }
 
 @media screen and (max-width: 600px) { .h1 { font-size: 4.2917em; } }
@@ -23,12 +42,6 @@
 .intro__subtitle { font-family: "Lora", serif; }
 
 .intro span { background-color: yellow; background-image: linear-gradient(86.01deg, #56ccf2 -9.1%, #c7a05e 82.05%); background-size: 100%; -webkit-background-clip: text; -moz-background-clip: text; -webkit-text-fill-color: transparent; -moz-text-fill-color: transparent; }
-f2; }
-
-.project-card__text { position: absolute; width: 220px; height: auto; left: 38px; top: 80px; font-weight: 500; color: #519d3f; }
-
-.project-card__button { position: absolute; right: 34px; bottom: 24px; border: 3px solid #ffffff; padding: 6px; font-family: Montserrat; font-weight: bold; text-transform: uppercase; transition: all 0.3s ease-in-out; }
-t; }
 
 .h1 { font-size: 5.2917em; }
 
@@ -60,7 +73,7 @@ t; }
 
 .project-card__title { position: absolute; width: auto; height: auto; left: 38px; top: 33px; font-family: Montserrat; font-weight: bold; color: #56ccf2; }
 
-.project-card__text { position: absolute; width: 220px; height: auto; left: 38px; top: 80px; font-weight: 500; color: #519d3f; }
+.project-card__text { position: absolute; width: 220px; height: auto; left: 38px; top: 80px; font-weight: 500; font-size: 16px; color: #519d3f; }
 
 .project-card__button { position: absolute; right: 34px; bottom: 24px; border: 3px solid #ffffff; padding: 6px; font-family: Montserrat; font-weight: bold; text-transform: uppercase; transition: all 0.3s ease-in-out; }
 
