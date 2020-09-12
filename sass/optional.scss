@@ -43,6 +43,10 @@ $iphone: "screen and (max-width: 600px)";
 
 .h1 {
     font-size: 5.2917em;
+
+    @media #{$iphone} {
+        font-size: 4.2917em;
+    }
 }
 
 .h2 {
@@ -50,7 +54,7 @@ $iphone: "screen and (max-width: 600px)";
 }
 
 .h3 {
-    font-size: 1.75em;
+    font-size: 28px;
 }
 
 .h4 {
