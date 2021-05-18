@@ -1,6 +1,6 @@
 # This is an old version of Dem0nLair
 
-Project is **depricated**, but you can still check it [here](https://zeromask1337.github.io/dem0nhome/)
+Project is **depricated**
 
 Figma layout [here](https://www.figma.com/file/9ro1foj4Svqg1rzH2rEvAQ/Dem0nizer-home?node-id=0%3A1)
 
